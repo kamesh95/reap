@@ -57,7 +57,7 @@
     "bytes": "~0.2.1",
     "commander": "~1.2.0",
     "debug": "*",
-    "ms": "~0.6.1"
+    "ms": "0.7.1"
   },
   "description": "Monitor and unlink old files",
   "devDependencies": {
