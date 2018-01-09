@@ -3,8 +3,19 @@
   "version": "1.0.0",
   "description": "Resolved Security Vulnerability of the original reap module https://www.npmjs.com/package/reap",
   "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "batch": "~0.4.0",
+    "bytes": "~0.2.1",
+    "commander": "~1.2.0",
+    "debug": "*",
+    "ms": "0.7.1"
+  },
+  "bundleDependencies": false,
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "deprecated": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
